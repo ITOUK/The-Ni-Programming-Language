@@ -1,0 +1,8 @@
+language: c
+os:
+  - osx
+  - linux
+
+script:
+  - gcc tests/main.c -o tests/travis_tst.o
+  - ./tests/travis_tst.o
