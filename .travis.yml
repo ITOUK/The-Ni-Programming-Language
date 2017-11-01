@@ -2,7 +2,6 @@ language: c
 
 os:
   - osx
-  - linux
 
 script:
   - gcc tests/main.c -o tests/travistest.o
